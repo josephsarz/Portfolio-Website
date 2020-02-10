@@ -4,22 +4,20 @@ import './App.css';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
+    <body>
+    <div>
+        <h1 className="name-placeholder"> Aghedo Joseph Femi </h1>
+        <p className="description-placeholder">
+          Software Engineer
+          <br></br>
+          <br></br>
+          <a href="https://github.com/josephsarz" target="_blank" ><i className="fa fa-github" aria-hidden="true"></i> Github </a> | 
+          <a href="https://www.linkedin.com/in/aghedo-joseph/" target="_blank" ><i class="fa fa-linkedin" aria-hidden="true"></i> LinkedIn </a> | 
+          <a href="mailto:aghedojoe007@gmail.com?subject=Website Contact"> <i class="fa fa-envelope-o" aria-hidden="true"></i> aghedojoe007@gmail.com </a>
+        
         </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
     </div>
+    </body>
   );
 }
 
